@@ -4,7 +4,7 @@ We propose a fully unsupervised multi-modal medical image registration method ba
 <div align=center><img width="820" height="358" src="https://github.com/DeepTag/ECaT/blob/main/ecat.png"/></div>
 
 Demo: (upper) tagging and unregistered cine sequence; (middle) tagging and fake cine sequence; (bottom) tagging and registered cine sequence. Our method can learn the specific image style of each frame to be registered and boost the registration performance significantly.
-<div align=center><img width="450" height="450" src="https://github.com/DeepTag/ECaT/blob/main/tfc.gif"/></div>
+<div align=center><img width="820" height="820" src="https://github.com/DeepTag/ECaT/blob/main/tfc.gif"/></div>
 
 ## Acknowledgments
 Our code implementation borrows heavily from [F-LSeSim](https://github.com/lyndonzheng/F-LSeSim), [C2FViT](https://github.com/cwmok/C2FViT), and [Deep-Exemplar-based-Video-Colorization](https://github.com/zhangmozhe/Deep-Exemplar-based-Video-Colorization).
