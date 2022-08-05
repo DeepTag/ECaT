@@ -6,4 +6,4 @@ Demo: (upper) tagging and unregistered cine sequence; (middle) tagging and fake 
 <div align=center><img width="400" height="400" src="https://github.com/DeepTag/ECaT/blob/main/tfc.gif"/></div>
 
 ## Acknowledgments
-Our code implementation borrows heavily from [F-LSeSim](https://github.com/lyndonzheng/F-LSeSim), [C2FViT]([https://github.com/lyndonzheng/F-LSeSim](https://github.com/cwmok/C2FViT)), and [Deep-Exemplar-based-Video-Colorization](https://github.com/zhangmozhe/Deep-Exemplar-based-Video-Colorization).
+Our code implementation borrows heavily from [F-LSeSim](https://github.com/lyndonzheng/F-LSeSim), [C2FViT](https://github.com/cwmok/C2FViT), and [Deep-Exemplar-based-Video-Colorization](https://github.com/zhangmozhe/Deep-Exemplar-based-Video-Colorization).
