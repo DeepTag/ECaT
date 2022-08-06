@@ -4,7 +4,7 @@ We propose a fully unsupervised multi-modal medical image registration method ba
 <div align=center><img width="820" height="358" src="https://github.com/DeepTag/ECaT/blob/main/ecat.png"/></div>
 
 ## Demo
-(upper) Tagging and unregistered cine sequence; (middle) tagging and fake cine sequence; (bottom) tagging and registered cine sequence. Our method can learn the specific image style of each frame to be registered and boost the registration performance significantly.
+(upper) Tagging and unregistered cine sequence; (middle) tagging and fake cine sequence; (bottom) tagging and registered cine sequence. Our method can learn the specific image style of each frame to be registered and boost the registration performance significantly. Note how the fake cine images can capture the individual image style of the corresponding cines.
 <div align=center><img width="820" height="820" src="https://github.com/DeepTag/ECaT/blob/main/tfc.gif"/></div>
 
 ## Acknowledgments
