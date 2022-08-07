@@ -4,7 +4,7 @@ We propose a fully unsupervised multi-modal medical image registration method ba
 <div align=center><img width="820" height="358" src="https://github.com/DeepTag/ECaT/blob/main/ecat.png"/></div>
 
 ## Demo
-(upper) Tagging and unregistered cine sequence; (middle) tagging and fake cine sequence; (bottom) tagging and registered cine sequence. Our method can learn the specific image style of each frame to be registered and boost the registration performance significantly. Note how the fake cines can capture the individual image style of the corresponding real cines.
+We aim to register an untagged cine MR (cMR) image to a tagged MR (tMR) image. The non-smooth contrast change between tMR and cMR, i.e., dark tag lines, pose a great challenge on this task. We use the proposed method to first translate tMR to fake cMR; then, we register cMR to fake cMR using the NCC dissimilarity loss.  (upper) tMR and unregistered cMR sequence; (middle) tMR and fake cMR sequence; (bottom) tMR and registered cMR sequence. Our method can learn the specific image style of each frame to be registered and boost the registration performance significantly. Note how the fake cMR frames can capture the individual image style of the corresponding real cMR frames.
 <div align=center><img width="620" height="620" src="https://github.com/DeepTag/ECaT/blob/main/tfc.gif"/></div>
 
 ## Acknowledgments
