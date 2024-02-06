@@ -6,12 +6,10 @@ We propose a fully unsupervised multi-modal medical image registration method ba
 <div align=center><img width="820" height="358" src="https://github.com/DeepTag/ECaT/blob/main/ecat.png"/></div>
 
 ## Demo
-We aim to register an untagged cine MR (cMR) image to a tagged MR (tMR) image. The non-smooth contrast change between tMR and cMR, i.e., presence of tags, poses a great challenge to this task. We use the proposed method to first translate tMR to fake cMR; then, we register cMR to fake cMR using the NCC-based dissimilarity loss.  
+We aim to register an untagged cine MR (cMR) image to a tagged MR (tMR) image. The non-smooth contrast change between tMR and cMR, i.e., presence of tags, poses a great challenge to this task. We use the proposed method to first translate tMR to fake cMR; then, we register cMR to fake cMR using the NCC-based dissimilarity loss. Our method can learn the **specific image style** of each cMR frame to be registered and boost the multi-modal registration performance significantly. Note how the fake cMR frames can capture the individual image styles of the corresponding real cMR frames.  
 <div align=center><img width="620" height="620" src="https://github.com/DeepTag/ECaT/blob/main/tfc.gif"/></div>
 
 [**upper**] tMR and unregistered cMR sequence; [**middle**] tMR and fake cMR sequence; [**bottom**] tMR and registered cMR sequence. 
-
-Our method can learn the **specific image style** of each cMR frame to be registered and boost the multi-modal registration performance significantly. Note how the fake cMR frames can capture the individual image styles of the corresponding real cMR frames.
 
 ## Acknowledgments
 Our code implementation borrows heavily from [F-LSeSim](https://github.com/lyndonzheng/F-LSeSim), [C2FViT](https://github.com/cwmok/C2FViT), and [Deep-Exemplar-based-Video-Colorization](https://github.com/zhangmozhe/Deep-Exemplar-based-Video-Colorization).
