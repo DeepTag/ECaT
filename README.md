@@ -1,5 +1,5 @@
 ## ECaT
-This is the project page of the WACV 2024 paper ECaT [[Video](https://youtu.be/TAkiciKl9N4].
+This is the project page of the WACV 2024 paper ECaT [[Video](https://youtu.be/TAkiciKl9N4)].
 
 ## Unsupervised Exemplar-Based Image-to-Image Translation and Cascaded Vision Transformers for Tagged and Untagged Cardiac Cine MRI Registration.
 We propose a fully unsupervised multi-modal medical image registration method based on image-to-image translation and cascaded vision transformers. We incorporate sample-specific style learning and hybrid global affine and local nonrigid deformation estimation in our framework and achieve significant superior performance over traditional methods.
